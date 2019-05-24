@@ -19,9 +19,6 @@ public class wordReplace {
         String fileDemo =  "/Users/yaokaize/poi/src/main/resources/demo.docx";
 
         if ("doc".equals(filePath.split("\\.")[1])) {
-
-
-
         } else if ("docx".equals(filePath.split("\\.")[1])) {
 
             XWPFDocument xwpfDocument = new XWPFDocument(POIXMLDocument.openPackage(filePath));
